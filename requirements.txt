@@ -1,0 +1,68 @@
+필요한 패키지들
+numpy<2
+pandas
+scikit-learn
+openpyxl
+bottleneck
+pyarrow
+tqdm
+opencv-python
+pycocotools
+
+
+✅ 1️⃣ VSCode 완전히 종료 → 다시 실행
+✅ 2️⃣ VSCode 상단 메뉴 → 터미널 → 새 터미널 (Ctrl + `)
+
+터미널이 열리면 이렇게 뜰 거예요:
+
+(base) C:\Users\FORYOUCOM\Documents\GitHub\fruit>
+
+✅ 3️⃣ 기존 환경 정리 (한 번만 실행)
+
+터미널에 입력 👇
+
+conda deactivate
+conda remove -n fruit_ml --all -y
+conda clean -a -y
+
+
+→ 이전에 꼬였던 환경 전부 삭제됩니다.
+
+✅ 4️⃣ VSCode 터미널에서 새 환경 생성
+
+(유튜브랑 같은 방식)
+
+conda create -n fruit_ml python=3.11 -y
+conda activate fruit_ml
+
+
+💡 여기까지 끝나면 터미널 프롬프트가 이렇게 바뀌어야 정상이에요:
+
+(fruit_ml) C:\Users\FORYOUCOM\Documents\GitHub\fruit>
+
+✅ 5️⃣ 기본 패키지 설치
+
+
+pip install "numpy<2" pandas scikit-learn opencv-python pycocotools tqdm openpy
+
+✅ 6️⃣ 설치 확인
+python -V
+python -c "import inspect, os; print(os.path.dirname(inspect.__file__))"
+
+✅ 7️⃣ VSCode에 환경 연결
+
+Ctrl + Shift + P
+
+“Python: Select Interpreter” 검색
+
+아래처럼 보이는 항목 중 선택 
+
+(fruit_ml) C:\anaconda3\envs\fruit_ml\python.exe
+
+numpy같은게 활성화 안될 경우 재시작
+
+VSCode에서 Ctrl + Shift + P
+
+“Python: Restart Language Server” 입력 후 실행
+
+그래도 안 되면 “Python: Select Interpreter” → fruit_ml 환경 다시 선택
