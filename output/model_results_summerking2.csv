@@ -1,9 +1,0 @@
-﻿Target,Model,R2,RMSE
-weightloss,RandomForest,0.4409,0.1352
-weightloss,LinearRegression,0.3323,0.1478
-ciel,RandomForest,0.8859,1.5208
-ciel,LinearRegression,0.6969,2.4784
-ciea,RandomForest,0.9552,1.6287
-ciea,LinearRegression,0.91,2.3083
-cieb,RandomForest,0.912,1.0921
-cieb,LinearRegression,0.7974,1.6577

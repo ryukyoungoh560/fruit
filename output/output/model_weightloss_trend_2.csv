@@ -1,0 +1,6 @@
+﻿Model,R2,RMSE
+LinearRegression,0.9996,0.0298
+RandomForest,0.988,0.1589
+SVR,0.9966,0.0844
+KNN,0.5869,0.9323
+GradientBoosting,0.9331,0.3752
